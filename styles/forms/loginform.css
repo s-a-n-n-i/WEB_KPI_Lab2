@@ -1,0 +1,119 @@
+.login-container {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login-title {
+    font-family: 'Monserrat', serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.log-details {
+    font-family: 'Roboto', serif;
+    color: #adadad;
+}
+
+form .log-input-box {
+    position: relative;
+    border-bottom: 1px solid rgb(50, 176, 255);
+}
+
+.log-input-box .loginput {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.log-input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: rotateY(-50%);
+    font-size: 12px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.log-input-box span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(50, 176, 255);
+}
+
+.log-input-box .loginput:focus~label,
+.log-input-box .loginput:valid~label {
+    top: 0;
+    color: rgb(50, 176, 255);
+}
+
+.log-input-box .loginput:focus~span::before,
+.log-input-box .loginput:valid~span::before {
+    width: 100%;
+}
+
+.pass {
+    color: rgb(50, 176, 255);
+    font-family: 'Roboto', serif;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.pass:hover {
+    text-decoration: underline;
+}
+
+.log-button input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid rgb(40, 85, 184);
+    background-color: rgb(50, 176, 255);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.log-button input[type="submit"]:hover {
+    background-color: rgb(0, 157, 255);
+}
+
+.log-button {
+    margin-top: 15px;
+    transition-duration: 0.5s;
+}
+
+.signup-link {
+    margin: 20px 0;
+    text-align: center;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    color: #666666;
+}
+
+.signup-link a{
+    color: rgb(50, 176, 255);
+    text-decoration: none;
+}
+
+.signup-link a:hover{
+    text-decoration: underline;
+}

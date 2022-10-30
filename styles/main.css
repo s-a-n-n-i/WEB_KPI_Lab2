@@ -1,0 +1,104 @@
+@import url('./reset.css');
+@import url('./fonts.css');
+@import url('./menu.css');
+@import url('./forms/registform.css');
+@import url('./forms/loginform.css');
+@import url('./forms/feedbackform.css');
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.block-Rasmus {
+    width: 50%;
+    height: 800px;
+    padding: 30px;
+    float: left;
+}
+
+.heading-Rasmus{
+    font-family: 'Electrolize', serif;
+    font-size: 24px;
+}
+
+.img-band1,
+.img-band2,
+.img-band3 {
+    width: 220px;
+    height: 140px;
+    margin: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-band1 {
+    background-image: url('../images/logo.jpg');
+    float: left;
+}
+
+.img-band2 {
+    background-image: url('../images/band1.jpg');
+    float: right;
+}
+
+.img-band3 {
+    background-image: url('../images/band2.jpeg');
+    float: left;
+}
+
+.block-images {
+    width: 50%;
+    height: 800px;
+    display: inline-block;
+}
+
+.img1,
+.img2,
+.img3 {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url('../images/ennja_Away.jpg');
+    top: 40px;
+    right: 100px;
+}
+
+.img2 {
+    background-image: url('../images/ennja_Way.jpg');
+    bottom: 100px;
+}
+
+.img3 {
+    background-image: url('../images/alivvve_Disorder.jpg');
+    bottom: 240px;
+    left: 100px;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.forms-container {
+    
+    width: 100%;
+    height: 1800px;
+    background: #b92b27;
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    background: linear-gradient(to right, #1565C0, #b92b27);
+}
+
+
+

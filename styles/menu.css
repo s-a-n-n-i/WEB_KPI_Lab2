@@ -1,0 +1,102 @@
+/* Main menu */
+.header {
+    height: 50px;
+    background-color: #003a7c;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.menu {
+    width: 700px;
+    height: 100%;
+    background-color: #003a7c;
+    float: left;
+}
+
+.menu-item {
+    width: 230px;
+    height: 50px;
+    background-color: #003a7c;
+    margin-right: -.36em;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
+.menu-item:hover {
+    background-color: #002856;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+    line-height: 50px;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-text{
+    color: white;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+}
+
+/* Social Networks Menu */
+
+.social-networks{
+    width: 100%;
+    height: 100%;
+    background-color: #003a7c;
+}
+
+.main-button{
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.dropdown {
+    position: fixed;
+    bottom: 0;
+    display: inline-block;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: whitesmoke;
+    min-width: 100px;
+}
+
+.dropdown-child a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: inline-block;
+}
+
+.menu-link{
+    transition-duration: 0.7s;
+}
+
+.menu-link-soc:hover{
+    background-color: bisque;
+}
+
+.fa-bars{
+    font-size: 25px;
+}
+
+.fa-brands{
+    font-size: 25px;
+}
